@@ -1,0 +1,18 @@
+- Tạo cơ sở dữ liệu
+	import file yame_shop.sql để tạo csdl mới
+- Tài khoản đăng nhập:
+	+ admin:
+		username: ldthanh
+		password: 12345
+	+ user: 
+		username: ldthanh
+		password: 12345
+		
+- Cấu trúc thư mục:
+	+ admin : đây là thư mục chưa các trang web dành cho quản trị viên
+	+ user : đây là thư mục chưa các trang web cho khách hàng
+	+ products-img: đây là thư mục ảnh sản phẩm do người dùng cập nhật lên
+	+ models: đây là thư mục chứa các class chính của website như order, product, ...
+	+ ajax: đây là thư mục chứ các hàm chức năng để client gọi về server xử lý
+	+ partials/partions: đây là thư mục chứa các phần chung của trang web như footer, header, head , ...
+	+ assets: đây là thư mục lưu các files  tỉnh như css, js, img, ...

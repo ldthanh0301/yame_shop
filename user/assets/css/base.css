@@ -1,0 +1,106 @@
+:root {
+    /* color */
+    --clr-white: #fff;
+    --clr-black: #111;
+    --clr-green: rgb(17, 228, 80);
+    --clr-red: #ee4266;
+    --clr-success: rgb(69, 204, 80);
+    --clr-danger: #f1375f;
+    /* size */
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    line-height: 1.7;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #101010;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+/* commom */
+
+.notify--success {
+    color: var(--clr-success);
+}
+
+.notify--danger {
+    color: var(--clr-danger);
+}
+
+
+/* replace boostrap */
+
+.container-fluid.container-fluid--max-width {
+    max-width: 1400px !important;
+}
+
+.row.gx-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.row.gx-3 .col {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row.row-sm {
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.row-sm .col-sm {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.btn.btn-primary {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.btn.btn-success {
+    background-color: var(--clr-success);
+    color: white;
+    border: none;
+}
+
+.btn.btn-white {
+    background-color: var(--clr-white);
+    color: black;
+    border: 1px rgba(0, 0, 0, 0.4) solid;
+}
+
+.btn:not(:disabled):not(.disabled):active {
+    background-color: black;
+    color: white;
+}
+
+.btn:not(:disabled):not(.disabled):focus {
+    box-shadow: rgba(0, 0, 0, 0.4) 1px 2px 4px;
+}
+
+.btn:not(:disabled):not(.disabled):hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 4px 4px;
+}
+
+
+/* form  */
+
+select {
+    text-transform: capitalize;
+}
+
+.form__title {
+    font-weight: 700;
+}
